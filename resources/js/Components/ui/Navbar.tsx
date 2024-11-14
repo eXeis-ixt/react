@@ -14,14 +14,14 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/60 backdrop-blur-md shadow-sm' : 'bg-white/0'
+        isScrolled ? 'bg-white/60 backdrop-blur-lg shadow-sm' : 'bg-white/0'
       }`}
     >
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="text-lg font-medium tracking-tight text-gray-900">
-            studio
+            Adons Tech
           </a>
 
           {/* Desktop Navigation */}

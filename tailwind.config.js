@@ -16,6 +16,7 @@ export default {
     		fontFamily: {
     			sans: ['Figtree', ...defaultTheme.fontFamily.sans]
     		},
+
     		borderRadius: {
     			lg: 'var(--radius)',
     			md: 'calc(var(--radius) - 2px)',
@@ -62,7 +63,11 @@ export default {
     				'4': 'hsl(var(--chart-4))',
     				'5': 'hsl(var(--chart-5))'
     			}
-    		}
+    		},
+            container: {
+                center: true,
+                padding: '2rem',
+            }
     	}
     },
 
